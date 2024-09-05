@@ -29,7 +29,8 @@ const Informacion = () => {
         construir interfaces dinámicas y reactivas de forma modular, lo que
         facilita el desarrollo y el mantenimiento de aplicaciones a gran escala.
       </p>
-    <Teoria></Teoria>
+      {/*aqui envio un props */}
+    <Teoria comision='101i'></Teoria>
     </section>
   );
 };
