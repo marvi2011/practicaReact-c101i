@@ -20,7 +20,7 @@ const Teoria = (props) => {
         los cambios en los datos se reflejan automáticamente en la interfaz de
         usuario.
       </p>
-      <h4>Comision: {props.comision}</h4>
+      <h4>Comision: {props.comision} - Año Actual: {props.anioActual}</h4>
     </article>
   );
 };
