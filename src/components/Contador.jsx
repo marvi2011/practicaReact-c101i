@@ -16,7 +16,7 @@ const [numero, setNumero]=useState(1)
       <h2>Contador</h2>
       <h4>{numero}</h4>
       <button className="btn btn-success me-2" onClick={sumar}>+1</button>
-      <button className="btn btn-warning">-1</button>
+      <button className="btn btn-warning" onClick={()=>setNumero(numero-1)}>-1</button>
     </section>
   );
 };
